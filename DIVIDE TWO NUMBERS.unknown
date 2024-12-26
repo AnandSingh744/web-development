@@ -1,0 +1,12 @@
+
+Start:	READ		; read n -> acc
+        STA NUM
+        READ
+        DIVIDE NUM
+        WRITE
+        STOP
+NUM:	.data 1 0 ; 2-byte location where sum is stored
+
+
+
+
